@@ -3,8 +3,8 @@ import CohortGraph from 'react-cohort-graph';
 
 const AppContainer = (props) => (
   <div>
-    <h1>Cohortz 4 lyfe</h1>
-    <CohortGraph data={props.data} />
+    <h1>Lifetime Value Cohort</h1>
+    <CohortGraph data={props.data} dataType='123' defaultValueType='value' />
   </div>
 );
 
